@@ -1,0 +1,345 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* -----------------------------------universal part --------------------------------------------------*/
+
+main {
+  border: 2px solid red;
+}
+/* ======================================start of section one=================================================== */
+.section-one {
+  margin: 10px;
+  padding: 20px;
+  background-image: url(/Photos/building\ bg.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-color: black;
+}
+.ul-section-one {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+  list-style-type: none;
+  color: aliceblue;
+}
+.Project {
+  color: rgb(10, 117, 232);
+  font-size: 27px;
+}
+h1 {
+  color: aliceblue;
+  font-size: 40px;
+  line-height: 4rem;
+}
+.provide {
+  color: aliceblue;
+  width: 500px;
+  padding-left: 100px;
+  padding-top: 45px;
+}
+.button-discover-more {
+  border: none;
+  background: #033559;
+  background: linear-gradient(
+    302deg,
+    rgba(3, 53, 89, 1) 35%,
+    rgba(95, 126, 149, 1) 95%,
+    rgba(168, 185, 197, 1) 98%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 160px;
+  height: 50px;
+  border-radius: 1px;
+  color: aliceblue;
+  box-shadow: 0 0 2px;
+  font-size: medium;
+  text-align: center;
+}
+.parent-of-section-one {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
+}
+.first-child-section-one {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-top: 30px;
+  gap: 30px;
+  line-height: 0.75em;
+}
+.second-child-of-section-one {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(57, 155, 235);
+  color: aliceblue;
+  border-radius: 2px;
+  box-shadow: 0 0 5px;
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+  width: 500px;
+  left: 20px;
+  top: 20px;
+}
+
+.span-chid1 {
+  color: #0c8eeb;
+  font-size: larger;
+}
+.span-child2 {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.1rem;
+}
+
+/* ================ above CSS STYLY-part is for section one ================================================= */
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* ============================ above CSS STYLY-part is for LOGOS ==========================================  */
+
+/* ======================================== SECTION--TWO--==================================================  */
+.section-two {
+  background-color: #d4dbe045;
+}
+
+.div-one-section2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 100px;
+}
+.heading-2-section2 {
+  font-size: 45px;
+  width: 300px;
+  padding-left: 5px;
+}
+.paragraph-1section-2 {
+  color: #555;
+  line-height: 2em;
+  width: 450px;
+}
+.paragraph-card {
+  width: 300px;
+  text-align: left;
+}
+.parent-of-3card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 1.5em;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
+}
+/* ============================above CSS STYLY-part is for Section TWO ======================================== */
+
+/* ===================================  SECTION--THREE--======================================================= */
+
+.section-Three {
+  margin-top: 70px;
+}
+.hr-line {
+  width: 100px;
+  background-color: #0c8eeb;
+  height: 10px;
+  position: relative;
+  left: 220px;
+  top: 8px;
+}
+.parent-one-section-three {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.heading-2-S-3 {
+  font-size: 45px;
+  width: 350px;
+}
+.paragraph {
+  width: 400px;
+}
+.paragraph-card {
+  color: #555;
+  line-height: 2.2em;
+  width: 200px;
+}
+.icon-of-parent-two-section-three {
+  width: 35px;
+  height: 35px;
+  border: 5px solid #222;
+  border-radius: 100%;
+  padding: 5px;
+  box-shadow: 0 0 10px #333;
+}
+.parent-two-section-three {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.card4 {
+  margin-top: 5px;
+}
+
+/* ====================above CSS STYLY-part is for section Three ============================================ */
+
+/* ===========================   SECTION-FOUR    ============================================================ */
+
+.section-four{
+  margin-top: 50px;
+}
+
+.parent-section-four {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.heading-two-section-4 {
+  font-size: 45px;
+  width: 480px;
+}
+.paragraph-section-4 {
+  line-height: 2em;
+  width: 390px;
+}
+.buttons-section-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.button-one-section-4 {
+  border: none;
+  background-color: deepskyblue;
+  padding: 15px 20px;
+  font-size: large;
+  box-shadow: 0 0 5px #777;
+  text-align: center;
+}
+.button-two-section-4{
+  border: none;
+  background-color: #dbdbdb2f;
+  padding: 15px 20px;
+  font-size: large;
+  text-align: center;
+}
+.women-id{
+  background-color: #222;
+  text-align: center;
+  color: aliceblue;
+  width: 280px;
+  height: 310px;
+  position: relative;
+  left: 550px;
+  bottom:430px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
+}
+.women-img{
+  padding-top: 50px;
+}
+/* ===========above CSS STYLY-part is for SECTION-FOUR ========================================================= */
+
+/* ===========================   SECTION-FIVE        =========================================================== */
+.parent-section-five{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.heading-section-five{
+  font-size: 45px;
+  width: 280px;
+  font-weight: bolder;
+}
+.paragraph-section-five{
+  color: #555;
+  width: 450px;
+  line-height: 2.5em ;
+}
+.button-section-five{
+  border: none;
+  background-color: deepskyblue;
+  padding: 15px 20px;
+  font-size: large;
+  box-shadow: 0 0 5px #777;
+  text-align: center;
+}
+
+/* =================== above CSS STYLY-part is for section- five ============================================ */
+
+/*  ==================================  SECTION-SIX- ======================================================== */
+.section-six{
+  margin-top: 70px;
+}
+.heading-2-Section-six{
+  font-size: 35px;
+  padding-left: 160px;
+}
+.span-section-six-parent{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 30px;
+  gap: 15px;
+}
+.paragraph-sectionsix{
+  width: 300px;
+  padding-left: 30px;
+  line-height: 1.75em;
+  font-size: medium;
+}
+.parent-section-six{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+/*  =================== above CSS STYLY-part is for section-SIX ============================================ */
+
+/*  ======================   SECTION SEVEN  ================================================================ */
+.section-seven{
+  margin-top: 100px;
+}
+.heading-2-sec-sev{
+  font-size: 50px;
+  width: 350px;
+  padding-left: 120px;
+}
+.parent-div-of-images-of-section-seven{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 30px;
+}
+.arrowkey-sec-sev{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: .4em;
+  width: 290px;
+  position: relative;
+  bottom: 100px;
+  background-color: aliceblue;
+}
+.tower{
+  width: 200px;
+
+}
+
+.rightkey{
+  padding: 20px 20px;
+  background-color: rgb(12, 77, 174);
+  color: aliceblue;
+}
