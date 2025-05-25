@@ -323,23 +323,47 @@ a:hover {
   justify-content:center;
   gap: 30px;
 }
-.arrowkey-sec-sev{
+.child-parent-section-seven{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.5rem;
+  gap: 12px;
+  background-color: aliceblue;
+  width: 220px;
+  height: 80px;
+  position: relative;
+  left: 520px;
+  bottom: 100px;
+}
+.button-section-7{
+  border:  none;
+ background-color: deepskyblue;
+ width: 50px;
+ height: 50px;
+ font-size: large;
+ box-shadow: 0 0 5px #777;
+}
+.on-the-footer-parent{
+  background-color: #222;
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: .4em;
-  width: 290px;
+  width: 1000px;
   position: relative;
-  bottom: 100px;
-  background-color: aliceblue;
+  left: 290px;
+  gap: 150px;
 }
-.tower{
-  width: 200px;
-
-}
-
-.rightkey{
-  padding: 20px 20px;
-  background-color: rgb(12, 77, 174);
+.heading-2-S-7{
+  width: 400px;
   color: aliceblue;
+  font-size: 35px;
+}
+.para-7{
+  color:#777;
+  width: 400px;
+  line-height: 2em;
+}
+.man{
+  margin-top: 60px;
 }
